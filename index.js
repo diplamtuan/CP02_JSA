@@ -37,7 +37,7 @@ function checkLogin() {
 function loadDanhSachSanPham() {
   for (let i = 0; i < data.length; i++) {
     let nameItem = data[i].name;
-    let priceItem = data[i].price;
+    let priceItem = data[i].newPrice;
     let imageItem = data[i].img;
     content.innerHTML += `
     <div class="content-item" id=${data[i].id}>
